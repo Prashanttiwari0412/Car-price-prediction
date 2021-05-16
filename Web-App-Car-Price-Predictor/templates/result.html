@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Car Price Predictor</title>
+  <link rel="shortcut icon" href="/static/favicon.png">
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/materialize.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/materialize.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='js/init.js') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='js/materialize.js') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='js/materialize.min.js') }}">
+
+</head>
+<body>
+  <nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#"></a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#"></a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h4 class="header center light-blue-text">Car Price Predictor</h4>
+      <div class="row center">
+        <h6 class="header col s12 light">This is a Machine Learning based Model which uses XG Boost Algorithm to predict right Price for your used Car</h6>
+      </div>
+
+
+      <br>
+   <br>
+    <div class="row center">
+          <h2 class="header center orange-text" >{{ prediction_text }}</h2>
+      </div>  
+  </div>
+
+
+
+
+
+
+
+<br><br>
+
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      
+        </div>
+      </div>
+
+    </div>
+    <br><br>
+  </div>
+
+  <footer class="page-footer orange">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h7 class="white-text">Created By:</h7>
+          <h5 class="white-text">Harit Shandilya</h5>
+          
+          <p class="grey-text text-lighten-4"></p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text"></h5>
+          <ul>
+            <li><a class="white-text" href="#!"></a></li>
+            <li><a class="white-text" href="#!"></a></li>
+            <li><a class="white-text" href="#!"></a></li>
+            <li><a class="white-text" href="#!"></a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="https://github.com/harit198">My Git Hub</a></li>
+            <li><a class="white-text" href="https://www.linkedin.com/in/harit-shandilya-b8967915a/">My Linked In</a></li>
+            <li><a class="white-text" href="https://medium.com/@haritshandilya198">My Blogs</a></li>
+            <li><a class="white-text" href="#!"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+       <a class="orange-text text-lighten-3" href="http://materializecss.com"></a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
